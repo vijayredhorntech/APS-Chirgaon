@@ -7,7 +7,7 @@
             <div class="container pt-4 pb-sm-4">
                 <h4 class="inner-text-title pt-5">About Us</h4>
                 <ul class="breadcrumbs-custom-path">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="{{route('index')}}">Home</a></li>
                     <li class="active"><i class="fas fa-angle-right"></i>About Us</li>
                 </ul>
             </div>
@@ -21,7 +21,7 @@
             <div class="row pb-xl-5 align-items-center">
                 <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
                     <div class="position-relative">
-                        <img src="assets/images/building.jpg" alt=""
+                        <img src="{{asset('assets/images/building.jpg')}}" alt=""
                              style="height: 500px; width: auto;object-fit: cover" class="img-fluid radius-image">
                     </div>
                 </div>
@@ -51,7 +51,7 @@
             <div class="row pb-xl-5 align-items-center">
                 <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
                     <div class="position-relative">
-                        <img src="assets/images/about/vision.jpg" style="height: 300px;width: auto; object-fit: cover"
+                        <img src="{{asset('assets/images/about/vision.jpg')}}" style="height: 300px;width: auto; object-fit: cover"
                              alt="" class="img-fluid radius-image">
                     </div>
                     <div class="imginfo__box">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
                     <div class="position-relative">
-                        <img src="assets/images/about/mission.jpg" style="height: 300px;width: auto; object-fit: cover"
+                        <img src="{{asset('assets/images/about/mission.jpg')}}" style="height: 300px;width: auto; object-fit: cover"
                              alt="" class="img-fluid radius-image">
                     </div>
                     <div class="imginfo__box">
@@ -127,7 +127,7 @@
                         <ul>
 
                             <li class="anim1">
-                                <img src="assets/images/about/chairman.jpg" class="img-fluid rounded-circle"
+                                <img src="{{asset('assets/images/about/chairman.jpg')}}" class="img-fluid rounded-circle"
                                      alt="client image"/>
                                 <blockquote class="quote"><q>Dear students, parents, and faculty members,
 
@@ -145,7 +145,7 @@
                                 <h3 style="font-style: italic;color: yellow">Chairman</h3>
                             </li>
                             <li class="anim2">
-                                <img src="assets/images/about/amit.jpg" class="img-fluid rounded-circle"
+                                <img src="{{asset('assets/images/about/amit.jpg')}}" class="img-fluid rounded-circle"
                                      alt="client image"/>
                                 <blockquote class="quote"><q>Dear students, parents, and staff,
 
@@ -163,7 +163,7 @@
                                 <h3 style="font-style: italic;color: yellow">Principal</h3>
                             </li>
                             <li class="anim3">
-                                <img src="assets/images/about/chairman.jpg" class="img-fluid rounded-circle"
+                                <img src="{{asset('assets/images/about/chairman.jpg')}}" class="img-fluid rounded-circle"
                                      alt="client image"/>
                                 <blockquote class="quote"><q>Dear students, parents, and faculty members,
 
@@ -181,7 +181,7 @@
                                 <h3 style="font-style: italic;color: yellow">Chairman</h3>
                             </li>
                             <li class="anim4">
-                                <img src="assets/images/about/amit.jpg" class="img-fluid rounded-circle"
+                                <img src="{{asset('assets/images/about/amit.jpg')}}" class="img-fluid rounded-circle"
                                      alt="client image"/>
                                 <blockquote class="quote"><q>Dear students, parents, and staff,
 
@@ -199,7 +199,7 @@
                                 <h3 style="font-style: italic;color: yellow">Principal</h3>
                             </li>
                             <li class="anim5">
-                                <img src="assets/images/about/chairman.jpg" class="img-fluid rounded-circle"
+                                <img src="{{asset('assets/images/about/chairman.jpg')}}" class="img-fluid rounded-circle"
                                      alt="client image"/>
                                 <blockquote class="quote"><q>Dear students, parents, and faculty members,
 
@@ -301,7 +301,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/chairman.jpg">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/chairman.jpg')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mr. Raj Kumar</h3>
@@ -318,7 +318,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/amit.jpg">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/amit.jpg')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mr. Amit Motiyan</h3>
@@ -335,7 +335,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/shashtri.jpg">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/shashtri.jpg')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mr. Shishu Pal</h3>
@@ -352,7 +352,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/jagdish.jpg">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/jagdish.jpg')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mr. Jagdish</h3>
@@ -369,7 +369,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/divya.png">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/divya.png')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Divya</h3>
@@ -386,7 +386,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/asha.png">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/asha.png')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mrs. Asha</h3>
@@ -403,7 +403,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/pravesh.jpg">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/pravesh.jpg')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mr. Pravesh</h3>
@@ -420,7 +420,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/pawan.jpg">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/pawan.jpg')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mr. Pawan</h3>
@@ -447,7 +447,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="assets/images/teachers/peon.png">
+                            <img class="img-fluid" src="{{asset('assets/images/teachers/peon.png')}}">
                         </div>
                         <div class="team-content">
                             <h3 style="color: black" class="name">Mrs. Ranjeeta</h3>
@@ -476,7 +476,7 @@
         <div class="container pb-md-5 pb-4">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 about-2-secs-right mb-lg-0 mb-4 text-center pe-lg-4">
-                    <img src="assets/images/about/safe.jpg" style="height: 500px;width: auto;object-fit: cover" alt=""
+                    <img src="{{asset('assets/images/about/safe.jpg')}}" style="height: 500px;width: auto;object-fit: cover" alt=""
                          class="img-fluid radius-image m-auto"/>
                 </div>
                 <div class="col-lg-6 about-2-secs-left ps-lg-5">
@@ -486,7 +486,7 @@
 
                         Active Learning is an approach to education that emphasizes student-centered, hands-on learning experiences. This approach encourages students to engage in active exploration, critical thinking, and problem-solving. It also promotes collaboration and communication among students, leading to a deeper understanding of the subject matter. In an active learning environment, students are more motivated and engaged, leading to better retention of knowledge and a more enjoyable learning experience.</p>
                     <div class="d-flex align-items-center mt-5">
-                        <a class="btn btn-style btn-style-3" href="/contact">Contact Us</a>
+                        <a class="btn btn-style btn-style-3" href="{{route('contact')}}">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -507,7 +507,7 @@
                         <li class="phone-sec me-lg-4"><i class="fas fa-phone-volume"></i>
                             <a class="call-style-w3" href="tel:+91 88949 49194">+91 88949-49194</a>
                         </li>
-                        <li><a href="/contact" class="btn btn-style btn-style-2 mt-lg-0 mt-3">Contact Us</a>
+                        <li><a href="{{route('contact')}}" class="btn btn-style btn-style-2 mt-lg-0 mt-3">Contact Us</a>
                         </li>
                     </ul>
                 </div>

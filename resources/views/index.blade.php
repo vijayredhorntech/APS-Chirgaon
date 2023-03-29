@@ -12,12 +12,12 @@
                         </h3>
                         <p class="banner-sub">Active Learning, Expert Teachers & Safe Environment</p>
                         <div class="d-flex align-items-center buttons-banner">
-                            <a href="/contact" class="btn btn-style mt-lg-5 mt-4">Admission Now</a>
+                            <a href="{{route('contact')}}" class="btn btn-style mt-lg-5 mt-4">Admission Now</a>
                         </div>
                     </div>
                     <div class="col-md-6 right-banner-2 text-end position-relative mt-md-0 mt-5">
                         <div class="sub-banner-image mx-auto">
-                            <img src="assets/images/boy.png" class="img-fluid position-relative" alt=" ">
+                            <img src="{{asset('assets/images/boy.png')}}" class="img-fluid position-relative" alt=" ">
                         </div>
                         <div class="banner-style-1 position-absolute">
                             <div class="banner-style-2 position-relative">
@@ -44,7 +44,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
                     <div class="icon-box icon-box-clr-1">
                         <div class="icon"><i class="fas fa-user-friends"></i></div>
-                        <h4 class="title"><a href="/about">Expert Teachers</a></h4>
+                        <h4 class="title"><a href="{{route('about')}}">Expert Teachers</a></h4>
                         <p>All of our highly trained teachers possess many years of educational experience paired with a
                             passion for growing and nurturing our students. Though the teachers lead the way, we also
                             foster self-motivation, critical thinking, and accountability in our students. Our small
@@ -55,7 +55,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mt-md-0 mt-4">
                     <div class="icon-box icon-box-clr-2">
                         <div class="icon"><i class="fas fa-book-reader"></i></div>
-                        <h4 class="title"><a href="/about">Quality Education</a></h4>
+                        <h4 class="title"><a href="{{route('about')}}">Quality Education</a></h4>
                         <p>A good quality education is one that provides all learners with capabilities they require to
                             become economically productive, develop sustainable livelihoods, contribute to peaceful and
                             democratic societies and enhance individual well-being. The learning outcomes that are
@@ -67,7 +67,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mt-lg-0 mt-4">
                     <div class="icon-box icon-box-clr-3">
                         <div class="icon"><i class="fas fa-user-graduate"></i></div>
-                        <h4 class="title"><a href="/about">
+                        <h4 class="title"><a href="{{route('about')}}">
                                 Our Curriculum</a></h4>
                         <p>Our curriculum and programs are differentiated based on students' needs. Our supportive
                             learning environment enhances each unique student’s skill set by guiding them through
@@ -79,7 +79,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mt-lg-0 mt-4">
                     <div class="icon-box icon-box-clr-4">
                         <div class="icon"><i class="fas fa-university"></i></div>
-                        <h4 class="title"><a href="/about">Real World Application</a></h4>
+                        <h4 class="title"><a href="{{route('about')}}">Real World Application</a></h4>
                         <p>Real-world application is critical. Our programs are developed not only to promote student
                             success in the classroom, but far beyond it and for years to come. Henderson International
                             students are equipped with life tools. Students are confident, inspired and prepared.</p>
@@ -100,7 +100,7 @@
             <div class="row pb-xl-5 align-items-center">
                 <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
                     <div class="position-relative">
-                        <img src="assets/images/bestchoise.jpg" alt="" class="img-fluid radius-image">
+                        <img src="{{asset('assets/images/bestchoise.jpg')}}" alt="" class="img-fluid radius-image">
                     </div>
                     <div class="imginfo__box">
                         <h6 class="imginfo__title">Get a Appointment Today!</h6>
@@ -118,7 +118,7 @@
                         <li><i class="fas fa-check-circle"></i>24/7 Availability</li>
                         <li><i class="fas fa-check-circle"></i>Exponential Professional Growth & Learning Opportunities</li>
                     </ul>
-                    <a href="/contact" class="btn btn-style mt-5">Apply Now</a>
+                    <a href="{{asset('/contact')}}" class="btn btn-style mt-5">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -232,12 +232,12 @@
             <div class="row content23-col-2 text-center">
                 <div class="col-md-6">
                     <div class="content23-grid content23-grid1">
-                        <h4><a href="about.html">Expert Teachers</a></h4>
+                        <h4><a href="{{route('about')}}">Expert Teachers</a></h4>
                     </div>
                 </div>
                 <div class="col-md-6 mt-md-0 mt-4">
                     <div class="content23-grid content23-grid2">
-                        <h4><a href="about.html">Safe Environment</a></h4>
+                        <h4><a href="{{route('about')}}">Safe Environment</a></h4>
                     </div>
                 </div>
             </div>
@@ -298,7 +298,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="blog-card-single">
                         <div class="grids5-info">
-                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.552066320129588/552066240129596" target="_blank"><img src="assets/images/news/marksheet.jpg" style="height: 250px" alt=""/></a>
+                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.552066320129588/552066240129596" target="_blank"><img src="{{asset('assets/images/news/marksheet.jpg')}}" style="height: 250px" alt=""/></a>
                             <div class="blog-info">
                                 <h4><a href="https://www.facebook.com/aphschirgaon/photos/pcb.552066320129588/552066240129596"  target="_blank">First Place.....</a></h4>
                                 <p>Maimuna Kedan, secured first position in Chhauhara block in term 1 examination of class X. </p>
@@ -312,7 +312,7 @@
                 <div class="col-lg-3 col-md-6 mt-lg-0 mt-4">
                     <div class="blog-card-single">
                         <div class="grids5-info">
-                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.467720331897521/467719531897601/" target="_blank"><img src="assets/images/news/teacherday.jpg" style="height: 250px" alt=""/></a>
+                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.467720331897521/467719531897601/" target="_blank"><img src="{{asset('assets/images/news/teacherday.jpg')}}" style="height: 250px" alt=""/></a>
                             <div class="blog-info">
                                 <h4><a href="https://www.facebook.com/aphschirgaon/photos/pcb.467720331897521/467719531897601/" target="_blank">Teachers Day Celebration.....</a></h4>
                                 <p>Adarsh public school chirgaon celebrated teachers day </p>
@@ -327,7 +327,7 @@
                 <div class="col-lg-3 col-md-6 mt-md-0 mt-4">
                     <div class="blog-card-single">
                         <div class="grids5-info">
-                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.452501416752746/452500736752814/" target="_blank"><img src="assets/images/news/independence.jpg" style="height: 250px" alt=""/></a>
+                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.452501416752746/452500736752814/" target="_blank"><img src="{{asset('assets/images/news/independence.jpg')}}" style="height: 250px" alt=""/></a>
                             <div class="blog-info">
                                 <h4><a href="https://www.facebook.com/aphschirgaon/photos/pcb.452501416752746/452500736752814/" target="_blank">Independence Day.....</a></h4>
                                 <p>
@@ -343,7 +343,7 @@
                 <div class="col-lg-3 col-md-6 mt-lg-0 mt-4">
                     <div class="blog-card-single">
                         <div class="grids5-info">
-                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.419434123392809/419427290060159/" target="_blank"><img src="assets/images/news/yogaday.jpg" style="height: 250px" alt=""/></a>
+                            <a href="https://www.facebook.com/aphschirgaon/photos/pcb.419434123392809/419427290060159/" target="_blank"><img src="{{asset('assets/images/news/yogaday.jpg')}}" style="height: 250px" alt=""/></a>
                             <div class="blog-info">
                                 <h4><a href="https://www.facebook.com/aphschirgaon/photos/pcb.419434123392809/419427290060159/" target="_blank">International Yoga Day.....</a></h4>
                                 <p>Adarsh public school chirgaon celebrated international yoga. </p>
@@ -374,7 +374,7 @@
                         <li class="phone-sec me-lg-4"><i class="fas fa-phone-volume"></i>
                             <a class="call-style-w3 " style="margin-left: 10px" href="tel:+91 88949 49194">+91 88949 49194</a>
                         </li>
-                        <li><a href="/contact" class="btn btn-style btn-style-2 mt-lg-0 mt-3">Join for free</a>
+                        <li><a href="{{route('contact')}}" class="btn btn-style btn-style-2 mt-lg-0 mt-3">Join for free</a>
                         </li>
                     </ul>
                 </div>

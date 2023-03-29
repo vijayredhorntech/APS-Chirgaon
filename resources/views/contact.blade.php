@@ -8,7 +8,7 @@
             <div class="container pt-4 pb-sm-4">
                 <h4 class="inner-text-title pt-5">Contact Us</h4>
                 <ul class="breadcrumbs-custom-path">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="{{route('index')}}">Home</a></li>
                     <li class="active"><i class="fas fa-angle-right"></i>Contact Us</li>
                 </ul>
             </div>
@@ -25,25 +25,25 @@
             </div>
             <div class="row contact-block">
                 <div class="col-md-7 contact-right">
-                    <form action="/contact" class="signin-form">
+                    <form action="{{route('contact')}}" class="signin-form">
                         <div class="input-grids">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <input type="text" name="w3lName" id="w3lName" placeholder="Your Name"
+                                    <input type="text" name="name" id="name" placeholder="Your Name"
                                            class="contact-input" required=""/>
                                 </div>
                                 <div class="col-sm-6">
-                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email"
+                                    <input type="email" name="email" id="email" placeholder="Your Email"
                                            class="contact-input" required=""/>
                                 </div>
                             </div>
-                            <input type="text" name="w3lSubect" id="w3lSubect" placeholder="Subject"
+                            <input type="text" name="subject" id="subject" placeholder="Subject"
                                    class="contact-input" required=""/>
-                            <input type="text" name="w3lWebsite" id="w3lWebsite" placeholder="Website URL"
+                            <input type="text" name="website" id="website" placeholder="Website URL"
                                    class="contact-input" required=""/>
                         </div>
                         <div class="form-input">
-                            <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your message here"
+                            <textarea name="message" id="message" placeholder="Type your message here"
                                       required=""></textarea>
                         </div>
                         <div class="text-start">

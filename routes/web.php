@@ -15,8 +15,8 @@ use App\Http\Controllers\pagesController;
 */
 
 
-Route::get('/',[pagesController::class, 'index']);
-Route::get('/about',[pagesController::class, 'about']);
-Route::get('/academic',[pagesController::class, 'academic']);
-Route::get('/gallery',[pagesController::class, 'gallery']);
-Route::get('/contact',[pagesController::class, 'contact']);
+Route::get('/',[pagesController::class, 'index'])->name('index');
+Route::get('/about',[pagesController::class, 'about'])->name('about');
+Route::get('/academic',[pagesController::class, 'academic'])->name('academic');
+Route::get('/gallery',[pagesController::class, 'gallery'])->name('gallery');
+Route::get('/contact',[pagesController::class, 'contact'])->name('contact');

@@ -1,25 +1,7 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Adarsh Public School Chirgaon </title>
-    <!-- Google fonts -->
-    <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
-    <script src="https://kit.fontawesome.com/4e2c7ef5ef.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-<!-- header -->
 <header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="/"><img src="assets/images/logo.png" class="logo" alt="">APS Chirgaon
+            <a class="navbar-brand" href="{{route('index')}}"><img src="{{asset('assets/images/logo.png')}}" class="logo" alt="">APS Chirgaon
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
@@ -32,16 +14,16 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link active" aria-current="page" href="{{route('index')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/about">About Us</a>
+                        <a class="nav-link " aria-current="page" href="{{route('about')}}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/academic">Academics</a>
+                        <a class="nav-link" href="{{route('academic')}}">Academics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/gallery">Gallery</a>
+                        <a class="nav-link" href="{{route('gallery')}}">Gallery</a>
                     </li>
 
                     {{--                    <li class="nav-item dropdown">--}}
@@ -59,10 +41,10 @@
                     {{--                    </li>--}}
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                        <a class="nav-link" href="{{route('contact')}}">Contact</a>
                     </li>  <li class="nav-item">
                         <a class="nav-link" href="https://www.facebook.com/aphschirgaon" target="_blank" style="font-size: 1.5rem"><i
-                                    class="fa fa-facebook"></i></a>
+                                class="fa fa-facebook"></i></a>
                     </li>  <li class="nav-item">
                         <a class="nav-link" href="https://instagram.com/apschirgaon?igshid=ZDdkNTZiNTM=" target="_blank" style="font-size: 1.5rem"> <i class="fa fa-instagram"></i></a>
                     </li>
@@ -86,4 +68,3 @@
         </nav>
     </div>
 </header>
-<!-- //header -->
