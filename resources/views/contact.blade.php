@@ -25,7 +25,8 @@
             </div>
             <div class="row contact-block">
                 <div class="col-md-7 contact-right">
-                    <form action="{{route('contact')}}" class="signin-form">
+                    <form action="{{route('contactDetails')}}" method="POST" class="signin-form">
+                        @csrf
                         <div class="input-grids">
                             <div class="row">
                                 <div class="col-sm-6">
@@ -39,12 +40,16 @@
                             </div>
                             <input type="text" name="subject" id="subject" placeholder="Subject"
                                    class="contact-input" required=""/>
-                            <input type="text" name="website" id="website" placeholder="Website URL"
-                                   class="contact-input" required=""/>
                         </div>
                         <div class="form-input">
                             <textarea name="message" id="message" placeholder="Type your message here"
                                       required=""></textarea>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-danger">{{session('complainError')}}</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-success">{{session('complainSuccess')}}</p>
                         </div>
                         <div class="text-start">
                             <button class="btn btn-style btn-style-3">Send Message</button>
