@@ -25,7 +25,8 @@
             </div>
             <div class="row contact-block">
                 <div class="col-md-7 contact-right">
-                    <form action="{{route('contactDetails')}}" method="POST" class="signin-form">
+{{--                    <form action="{{route('contactDetails')}}" method="POST" class="signin-form">--}}
+                    <form action="#"  class="signin-form">
                         @csrf
                         <div class="input-grids">
                             <div class="row">

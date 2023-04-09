@@ -13,17 +13,19 @@
 
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('index')}}">Home</a>
+                        <a class="nav-link {{ Request::route()->getName() == 'index' ? 'active' : '' }} " aria-current="page" href="{{route('index')}}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link {{ Request::route()->getName() == 'about' ? 'active' : '' }} " aria-current="page" href="{{route('about')}}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{route('about')}}">About Us</a>
+                        <a class="nav-link {{ Request::route()->getName() == 'academic' ? 'active' : '' }}" href="{{route('academic')}}">Academics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('academic')}}">Academics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('gallery')}}">Gallery</a>
+                        <a class="nav-link {{ Request::route()->getName() == 'gallery' ? 'active' : '' }}" href="{{route('gallery')}}">Gallery</a>
                     </li>
 
                     {{--                    <li class="nav-item dropdown">--}}
@@ -41,7 +43,7 @@
                     {{--                    </li>--}}
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('contact')}}">Contact</a>
+                        <a class="nav-link {{ Request::route()->getName() == 'contact' ? 'active' : '' }}" href="{{route('contact')}}">Contact</a>
                     </li>  <li class="nav-item">
                         <a class="nav-link" href="https://www.facebook.com/aphschirgaon" target="_blank" style="font-size: 1.5rem"><i
                                 class="fa fa-facebook"></i></a>

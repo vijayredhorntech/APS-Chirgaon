@@ -3,9 +3,9 @@
 @section('section')
 
     <!-- banner section -->
-    <section id="home" class="w3l-banner py-5">
+    <section id="home" class="w3l-banner">
         <div class="banner-content">
-            <div class="container py-4">
+            <div class="container">
                 <div class="row align-items-center pt-sm-5 pt-4">
                     <div class="col-md-6">
                         <h3 class="mb-lg-4 mb-3">Your Kids Deserve The<span class="d-block">Best Education</span>

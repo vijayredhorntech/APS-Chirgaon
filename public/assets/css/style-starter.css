@@ -11794,7 +11794,7 @@ fieldset:disabled .btn {
   --bg-grey: #f4f4f4;
   --bg-light: #fbfbfb;
   --box-shadow: 0 0.5rem 1rem rgb(12 12 12 / 5%);
-  --banner-layer: rgb(255 255 255 / 90%);
+  --banner-layer: rgb(255 255 255 / 40%);
   --gradient-color: linear-gradient(to left, #11d5ff 0%, #0089cd 100%);
   --gradient-color-banner: linear-gradient(to left, #00c9f5 0%, #00a4f5 100%);
   --layer: rgb(1 121 179 / 75%);
@@ -19358,12 +19358,13 @@ h3.title-style {
 
 /* banner section */
 .w3l-banner {
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  min-height: 100vh;
+
+  height: 100vh;
+    width: 99vw;
   position: relative;
   z-index: 1;
   background: url(../images/building.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .w3l-banner:before {
@@ -19376,24 +19377,12 @@ h3.title-style {
   top: 0;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
 
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 .w3l-banner {
   display: grid;
   align-items: center;
-  min-height: 100vh;
+
 }
 
 h4.small-text-banner {

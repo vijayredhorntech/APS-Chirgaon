@@ -19,7 +19,7 @@ use App\Http\Controllers\ContactController;
 */
 
 
-Route::get('/',[HomeController::class, 'index'])->name('index');
+Route::get('/home',[HomeController::class, 'home'])->name('index');
 Route::get('/about',[AboutController::class, 'about'])->name('about');
 Route::get('/academic',[AcademicController::class, 'academic'])->name('academic');
 Route::get('/gallery',[GalleryController::class, 'gallery'])->name('gallery');
