@@ -15,7 +15,8 @@
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
 
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::route()->getName() == 'index' ? 'active' : '' }} " aria-current="page" href="{{route('index')}}">Home</a>
+                        <a class="nav-link {{ Request::route()->getName() == 'index' ? 'active' : '' }} " aria-current="page" href="{{route('index')}}">Home
+                        </a>
                     </li>
 
                     <li class="nav-item">
