@@ -7,7 +7,7 @@
         <div class="banner-content">
             <div class="container">
                 <div class="row align-items-center pt-sm-5 pt-4">
-                    <div class="col-md-6">
+                    <div class="col-md-6 yourkid">
                         <h3 class="mb-lg-4 mb-3">Your Kids Deserve The<span class="d-block">Best Education</span>
                         </h3>
                         <p class="banner-sub">Active Learning, Expert Teachers & Safe Environment</p>

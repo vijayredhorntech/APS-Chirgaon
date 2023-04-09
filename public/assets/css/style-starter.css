@@ -9021,7 +9021,7 @@ fieldset:disabled .btn {
   }
 
   .pt-sm-5 {
-    padding-top: 3rem !important;
+    padding-top: 10rem !important;
   }
 
   .pe-sm-0 {
@@ -19506,6 +19506,7 @@ p.banner-sub {
     top: -70px;
   }
 
+
   .banner-style-1 {
     left: -60px;
   }
@@ -19515,6 +19516,34 @@ p.banner-sub {
   .banner-style-1 {
     left: 0px;
   }
+    .sub-banner-image img {
+        /*top: -70px;*/
+        display: none;
+    }
+    .banner-style-2
+    {
+        display: none;
+    }
+    .yourkid
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 100px;
+
+    }
+    .w3l-banner {
+
+        height: 80vh;
+         display: flex;
+        align-items: center;
+    }
+    .pt-4
+    {
+        padding-top: 10.5rem !important;
+    }
+
+
 }
 
 @media (max-width: 480px) {
@@ -19522,7 +19551,20 @@ p.banner-sub {
     font-size: 40px;
     line-height: 45px;
   }
+    .w3l-banner {
 
+        height: 70vh;
+
+    }
+    .yourkid
+    {
+        padding-left: 50px;
+
+    }
+    .pt-4
+    {
+        padding-top: 10.5rem !important;
+    }
   p.banner-sub {
     font-size: 15px;
     line-height: 26px;
